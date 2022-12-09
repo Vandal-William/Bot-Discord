@@ -1,0 +1,31 @@
+[
+    {
+        "Question1": "Question 1 : Guerrier japonais du Moyen Âge, spécialiste des opérations d'espionnage. je suis un ....",
+        "Response1": "ninja",
+        "Hint1": "je pratique des techniques d'espionnage, de survie et de combat ancestrales appelées ninjutsu." 
+    },
+
+    {
+       "Question2": "Question 2 : Comment s'appel une commune qui compte moins de 2.000 habitants ?", 
+       "Response2": "village",
+       "Hint2": "Synonymes de : bourg, agglomération, bourgade, commune, localité"
+    },
+
+    {
+        "Question3": "Question 3 : Lutte armée entre États, considérée comme un phénomène historique et social", 
+        "Response3": "guerre",
+        "Hint3": "s'oppose à : paix"
+     },
+
+     {
+        "Question4": "Question 4 : Un ensemble de familles associées par une parenté réelle ou fictive, fondée sur l'idée de descendance d'un ancêtre commun, qui, lui-même, peut être réel, imaginaire ou mythologique", 
+        "Response4": "clan",
+        "Hint4": "Synonyme : bande, cabale, camp, cellule, cénacle, cercle, chapelle, colonie, coterie, faction, front, groupe, noyau, secte, société, tribu "
+     },
+
+     {
+         "Question5": "Question 5 : Alors avez vous trouver de quelle manga il s'agit ?", 
+         "Response5": "naruto",
+         "Hint5": "https://static.wikia.nocookie.net/naruto/images/1/12/La_Promesa_de_Naruto.png/revision/latest?cb=20110825232746&path-prefix=es"
+      }
+]
