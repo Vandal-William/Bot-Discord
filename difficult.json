@@ -1,31 +1,31 @@
 [
     {
-        "Question": "**\nQuestion 1 :** ```Guerrier japonais du Moyen Âge, spécialiste des opérations d'espionnage. je suis un ....\n```",
-        "Response": "ninja",
-        "Hint": "**\nIndice :** ```Je pratique des techniques d'espionnage, de survie et de combat ancestrales appelées ninjutsu.\n```" 
+        "Question": "**\nQuestion 1 :** ```Je suis l’arme qui sert la justice, je suis symbole de la caste d’un samourai\n```",
+        "Response": "katana",
+        "Hint": "**\nIndice :** ```je suis une arme féodale japonaise\n```" 
     },
 
     {
-       "Question": "**\nQuestion 2 :** ```Comment s'appel une commune qui compte moins de 2.000 habitants ?\n```", 
-       "Response": "village",
-       "Hint": "**\nIndice:** ```Synonymes de : bourg, agglomération, bourgade, commune, localité\n```"
+       "Question": "**\nQuestion 2 :** ```Je suis un guerrier à la lame qui ne fléchit jamais, ma volonté n’a d’égal que ma loyauté indéfectible pour le seigneur que je protège, je trancherai tous les ennemis qui s'opposent à mon seigneur\n```", 
+       "Response": "samourai",
+       "Hint": "**\nIndice:** ```Guerrier japonais de la société féodale\n```"
     },
 
     {
-        "Question": "**\nQuestion 3 :**  ```Lutte armée entre États, considérée comme un phénomène historique et social\n```", 
-        "Response": "guerre",
-        "Hint": "**\nIndice :** ```s'oppose à : paix\n```"
+        "Question": "**\nQuestion 3 :**  ```Je n’ai pas trouvé la paix après ma fin, mes angoisses me rongent et me fige, m'empêchent d’accéder à l’autre bout, qui suis-je ?\n```", 
+        "Response": "ame",
+        "Hint": "**\nIndice :** ```esprit errant\n```"
      },
 
      {
-        "Question": "**\nQuestion 4 :** ```Un ensemble de familles associées par une parenté réelle ou fictive, fondée sur l'idée de descendance d'un ancêtre commun, qui, lui-même, peut être réel, imaginaire ou mythologique\n```", 
-        "Response": "clan",
-        "Hint": "**\nIndice :** ```Synonyme : bande, cabale, camp, cellule, cénacle, cercle, chapelle, colonie, coterie, faction, front, groupe, noyau, secte, société, tribu\n``` "
+        "Question": "**\nQuestion 4 :** ```Titre donné aux chefs de bataillon, d'escadron, de groupe aérien\n```", 
+        "Response": "commandant",
+        "Hint": "**\nIndice :** ```quatre galons\n``` "
      },
 
      {
          "Question": "**\nQuestion 5 :** ```Alors avez vous trouver de quelle manga il s'agit ?\n```", 
-         "Response": "naruto",
-         "Hint": "https://static.wikia.nocookie.net/naruto/images/1/12/La_Promesa_de_Naruto.png/revision/latest?cb=20110825232746&path-prefix=es"
+         "Response": "bleach",
+         "Hint": "https://media.tenor.com/images/c82f1fcf4e90c5bccb9b42e82b69b6cd/tenor.png"
       }
 ]

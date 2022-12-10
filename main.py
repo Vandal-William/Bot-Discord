@@ -8,6 +8,7 @@ Instanciation du serveur discord et appelle de la fonction askQuestion.
 """
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
+global score
 score = 0
 load_dotenv()
 

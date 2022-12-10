@@ -10,13 +10,13 @@ par la somme des valeurs présent dans le tableau
 """
 
 
-async def easyLvl(client, message):
+async def runLvl(client, message, jsonfile, level):
 
-    fileObject = open("easy.json", "r")
+    fileObject = open(jsonfile, "r")
     jsonContent = fileObject.read()
     q = json.loads(jsonContent)
 
-    level = 'facile'
+    level = level
     totalScore = []
 
     for i in range(len(q)):
