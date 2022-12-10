@@ -1,3 +1,10 @@
+"""
+Définition de fonction, qui définit le comptage et le retour du score, 
+la méthode pour poser les questions, les conditions à remplir qui valide 
+ou non une question et la possibilité de demander un indice.
+"""
+
+
 async def question(question, answer,  hint, client, message):
 
     score = 0
@@ -7,7 +14,7 @@ async def question(question, answer,  hint, client, message):
     response = await client.wait_for('message')
 
     if answer in response.content.lower():
-        await message.channel.send("Bonne réponse !")
+        await message.channel.send("**\nBonne réponse !\n**")
         score = score + 2
         return score
 
@@ -17,13 +24,13 @@ async def question(question, answer,  hint, client, message):
         response = await client.wait_for('message')
 
         if answer in response.content.lower():
-            await message.channel.send("Bonne réponse !")
+            await message.channel.send("**\nBonne réponse !\n**")
             score = score + 1.5
             return score
         else:
-            await message.channel.send("Dommage ce n'est pas la bonne réponse")
+            await message.channel.send("**\nDommage ce n'est pas la bonne réponse\n**")
             return score
 
     else:
-        await message.channel.send("Dommage ce n'est pas la bonne réponse")
+        await message.channel.send("**\nDommage ce n'est pas la bonne réponse\n**")
         return score

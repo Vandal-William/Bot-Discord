@@ -3,20 +3,20 @@ from questions import *
 import json
 
 """
-Fonction qui se sert de la fonction questions pour poser les questions relatives au niveau de difficulté facile. 
-Elle se sert également de la boucle for pour boucler sur le fichier easy.jison, pour poser des questions par itération. 
+Fonction qui se sert de la fonction questions pour poser les questions relatives au niveau de difficulté difficile. 
+Elle se sert également de la boucle for pour boucler sur le fichier difficult.jison, pour poser des questions par itération. 
 Elle push le score retourner par chaque question dans un tableau nommé totalScore. Enfin elle affiche le score final 
 par la somme des valeurs présent dans le tableau
 """
 
 
-async def easyLvl(client, message):
+async def difficultLvl(client, message):
 
-    fileObject = open("easy.json", "r")
+    fileObject = open("difficult.json", "r")
     jsonContent = fileObject.read()
     q = json.loads(jsonContent)
 
-    level = 'facile'
+    level = 'difficile'
     totalScore = []
 
     for i in range(len(q)):
