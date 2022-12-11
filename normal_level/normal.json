@@ -13,13 +13,13 @@
 
     {
         "Question": "**\nQuestion 3 :**  ```J’exerce la forme la plus cruelle des censures. Mon Job c’est d’hôter des vies, je suis un...\n```", 
-        "Response": "Assassin",
+        "Response": "assassin",
         "Hint": "**\nIndice :** ```Personne qui commet un meurtre avec préméditation ou guet-apens\n```"
      },
 
      {
         "Question": "**\nQuestion 4 :** ```Nous sommes un, nous sommes même, nous prenons des horizons divers, mais nous sommes issus du même arbre, et notre lien ne pourra jamais changer\n```", 
-        "Response": "Famille",
+        "Response": "famille",
         "Hint": "**\nIndice :** ```Synonyme : Ensemble des personnes vivant sous le même toit\n``` "
      },
 
