@@ -20,8 +20,7 @@ Chaque niveau est notée sur 10 points, il faut un minimum de 5 sur 10 pour vali
 
 le bot discord est encore un MVP voici les fonctionnalités futures :
 
-- Mise en ligne du bots discord pour qu'il tourne 24 heures sur 24, 7 jours sur 7
-- Permettre aux joueurs de renseigner son nom au début de la partie
+- Mettre en place des sessions
 - Etablir un système de ranking
 - Permettent aux joueurs de choisir le niveau de difficulté
 - Ajouter plus de questions à chaque niveau, et en pose 5 de manière aléatoire
@@ -29,4 +28,6 @@ le bot discord est encore un MVP voici les fonctionnalités futures :
 
 ## Le channel discorde du jeu :
 
-> https://discord.gg/tN3C9vjv
+le bot est en ligne et accessible:
+
+> https://discord.gg/AYQQyWnSdy
