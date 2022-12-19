@@ -2,14 +2,6 @@ import asyncio
 from questions import *
 import json
 
-"""
-Fonction qui se sert de la fonction questions pour poser les questions relatives au niveau de difficulté facile. 
-Elle se sert également de la boucle for pour boucler sur le fichier easy.jison, pour poser des questions par itération. 
-Elle push le score retourner par chaque question dans un tableau nommé totalScore. Enfin elle affiche le score final 
-par la somme des valeurs présent dans le tableau
-"""
-
-
 async def runLvl(client, message, jsonfile, level):
 
     fileObject = open(jsonfile, "r")
@@ -29,4 +21,15 @@ async def runLvl(client, message, jsonfile, level):
 
     await asyncio.sleep(2)
 
-    await message.channel.send("**\nFélicitation vous avez terminer le niveau " + level + " avec un score de " + " " + str(sum(totalScore)) + "/" + str(10) + "\n**")
+
+    if sum(totalScore) < 5:
+        await message.channel.send("**\n Votre score est de :"+ " " + str(sum(totalScore)) + "/" + str(10) + ", il faut avoir un score minimum de 5/10 pour passer au niveau suivant.\n voulez vous rejouer ce niveau ?\n -> !oui pour continuer\n -> !non pour quitter\n**")
+        response = await client.wait_for('message')
+        if response.content.lower() == "!oui":
+            return 1
+        if response.content.lower() == "!non":
+            return 0                
+    else:
+        await message.channel.send("**\nFélicitation vous avez terminer le niveau " + level + " avec un score de " + " " + str(sum(totalScore)) + "/" + str(10) + "\n**")
+        return 2
+    

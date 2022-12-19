@@ -1,11 +1,8 @@
 import discord
 import os
 from dotenv import load_dotenv
-from askQuestions import *
+from runBot import *
 
-"""
-Instanciation du serveur discord et appelle de la fonction askQuestion.
-"""
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 global score
@@ -17,6 +14,6 @@ load_dotenv()
 async def on_ready():
     print("le bot est prêt !")
 
-askQuestions(client)
+runBot(client)
 
 client.run(os.getenv('TOKEN'))

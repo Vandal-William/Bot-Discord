@@ -1,9 +1,3 @@
-"""
-Définition de fonction, qui définit le comptage et le retour du score, 
-la méthode pour poser les questions, les conditions à remplir qui valide 
-ou non une question et la possibilité de demander un indice.
-"""
-
 
 async def question(question, answer,  hint, client, message):
 
@@ -18,7 +12,7 @@ async def question(question, answer,  hint, client, message):
         score = score + 2
         return score
 
-    if "indice" in response.content.lower():
+    if "!indice" in response.content.lower():
         await message.channel.send(hint)
 
         response = await client.wait_for('message')
